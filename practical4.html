@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Table Example</title>
+    <style>
+        table { width: 80%; border-collapse: collapse; margin: 20px auto; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        thead th, tfoot td { background-color: #4CAF50; color: white; }
+        caption { font-size: 1.5em; margin-bottom: 10px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Student Record</caption>
+        <thead>
+            <tr>
+                <th rowspan="4">Roll No.</th>
+                <th colspan="2">Details</th>
+            </tr>
+            <tr><th>Name</th><th>Course</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>CM25083</td><td>Jayshri</td><td>B.Tech [CSE(AI/ML)]</td></tr>
+            <tr><td>CM25119</td><td>Utkarsha</td><td>B.Tech [CSE(AI/ML)]</td></tr>
+            <tr><td>CM25110</td><td>Samruddhi</td><td>B.Tech [CSE(AI/ML)]</td></tr>
+            <tr><td>CM25114</td><td>Suhani</td><td>B.Tech [CSE(AI/ML)]</td></tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="3">Total: 4</td></tr>
+        </tfoot>
+    </table>
+</body>
+</html>
